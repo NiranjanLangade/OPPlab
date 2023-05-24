@@ -19,7 +19,7 @@ public class Question_01_2 {
         System.out.print("Enter number of elements in second array : ");
         int m = sc.nextInt();
         int[] array2 = new int[n];
-        for (int i=0;i<n;i++){
+        for (int i=0;i<m;i++){
             array2[i] = sc.nextInt();
         }
         System.out.println("Array1 : "+Arrays.toString(array1));
